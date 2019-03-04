@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 650px;
+    border: 1px solid;
+    height: 650px;
+}
+
+.sqr {
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    position: relative;
+}
+.side-one {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+}
+.side-two {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    height: 100%;
+    margin-left: 89px;
+}
